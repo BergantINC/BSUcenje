@@ -5,22 +5,21 @@ page 65408 "TST Team Subform"
     ApplicationArea = All;
     UsageCategory = Administration;
     SourceTable = Employee;
-    CardPageId = "Employee Card";
+    //CardPageId = "Employee Card";
 
 
     layout
     {
         area(Content)
         {
-            repeater(Employee)
+            repeater(GroupName)
             {
                 field("No."; Rec."No.")
                 {
                     ApplicationArea = All;
                     Editable = false;
                     ToolTip = 'Specifies the number of the involved entry or record, according to the specified number series.';
-                    TableRelation = Employee;
-                    DrillDownPageId = "Employee Card";
+                    TableRelation = Employee."No.";
                 }
                 field("First Name"; Rec."First Name")
                 {
