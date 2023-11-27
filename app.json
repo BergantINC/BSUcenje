@@ -1,0 +1,32 @@
+{
+  "id": "76616c62-6d39-4bc1-872d-9811c7b3f22e",
+  "name": "Multisola1",
+  "publisher": "BS - bergant",
+  "version": "1.0.0.0",
+  "brief": "Junior investment",
+  "description": "Junior investment but longer",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "https://www.b-s.si/",
+  "logo": "res/logo.png",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "23.0.0.0",
+  "idRanges": [
+    {
+      "from": 65400,
+      "to": 65600
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "12.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
