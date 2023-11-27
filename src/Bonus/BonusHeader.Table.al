@@ -107,9 +107,9 @@ table 65400 "TST Bonus Header"
 
     local procedure DeleteLines()
     var
-        BonusLine: record "TST Bonus Line";
+        TSTBonusLine: record "TST Bonus Line";
     begin
-        BonusLine.SetRange("Document No.", "No.");
-        BonusLine.DeleteAll(true);
+        TSTBonusLine.SetRange("Document No.", "No.");
+        TSTBonusLine.DeleteAll(true);
     end;
 }

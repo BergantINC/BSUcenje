@@ -33,10 +33,10 @@ tableextension 65400 "TST Customer" extends "Customer"
 
     local procedure TestIfBonusExists()
     var
-        BonusHeader: Record "TST Bonus Header";
+        TSTBonusHeader: Record "TST Bonus Header";
     begin
-        BonusHeader.SetRange("Customer no.", Rec."No.");
-        if not BonusHeader.IsEmpty then
+        TSTBonusHeader.SetRange("Customer no.", Rec."No.");
+        if not TSTBonusHeader.IsEmpty then
             Error(Err, Rec.Name);
 
     end;
