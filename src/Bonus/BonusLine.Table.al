@@ -69,11 +69,11 @@ table 65401 "TST Bonus Line"
 
     local procedure TestStatus()
     var
-        BonusHeader: Record "TST Bonus Header";
+        TSTBonusHeader: Record "TST Bonus Header";
     begin
-        if BonusHeader.Get(Rec."Document No.") then
-            if BonusHeader.Status = BonusHeader.Status::Released then
-                Error(ErrMsg, BonusHeader.Status);
+        if TSTBonusHeader.Get(Rec."Document No.") then
+            if TSTBonusHeader.Status = TSTBonusHeader.Status::Released then
+                Error(ErrMsg, TSTBonusHeader.Status);
     end;
 
 }
