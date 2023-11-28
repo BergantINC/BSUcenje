@@ -63,5 +63,6 @@ page 65406 "TST Team List"
                 if not Confirm('Thou hast found the record of team %1', false, TeamSet) then exit;
             until TeamSet.Next() = 0;
 
+
     end;
 }
