@@ -6,55 +6,55 @@ codeunit 65400 "TST Bonus Calculation"
         CalculateBonus(SalesInvLine);
     end;
 
-    local procedure CalculateBonus(var TSTSalesInvLine: record "Sales Invoice Line")
+    local procedure CalculateBonus(var SalesInvoiceLine: record "Sales Invoice Line")
     var
         TSTBonusHeader: record "TST Bonus Header";
     begin
-        if TSTSalesInvLine.Type <> TSTSalesInvLine.Type::Item then
+        if SalesInvoiceLine.Type <> SalesInvoiceLine.Type::Item then
             exit;
-        TSTBonusHeader.SetRange("Customer no.", TSTSalesInvLine."Bill-to Customer No.");
+        TSTBonusHeader.SetRange("Customer no.", SalesInvoiceLine."Bill-to Customer No.");
         TSTBonusHeader.SetRange(Status, TSTBonusHeader.Status::Released);
-        TSTBonusHeader.SetFilter("Starting date", '..%1', TSTSalesInvLine."Posting Date");
-        TSTBonusHeader.SetFilter("Ending date", '%1..', TSTSalesInvLine."Posting Date");
+        TSTBonusHeader.SetFilter("Starting date", '..%1', SalesInvoiceLine."Posting Date");
+        TSTBonusHeader.SetFilter("Ending date", '%1..', SalesInvoiceLine."Posting Date");
 
         if TSTBonusHeader.FindSet() then
             repeat
-                FindBonusAll(TSTBonusHeader, TSTSalesInvLine);
-                FindBonusOne(TSTBonusHeader, TSTSalesInvLine);
+                FindBonusAll(TSTBonusHeader, SalesInvoiceLine);
+                FindBonusOne(TSTBonusHeader, SalesInvoiceLine);
             until TSTBonusHeader.Next() = 0;
     end;
 
-    local procedure FindBonusAll(var TSTBonusHeader: record "TST Bonus Header"; var TSTSalesInvLine: record "Sales Invoice Line")
+    local procedure FindBonusAll(var TSTBonusHeader: record "TST Bonus Header"; var SalesInvoiceLine: record "Sales Invoice Line")
     var
         TSTBonusLine: Record "TST Bonus Line";
     begin
         TSTBonusLine.SetRange("Document No.", TSTBonusHeader."No.");
         TSTBonusLine.SetRange(Type, TSTBonusLine.Type::"All items");
         if TSTBonusLine.FindFirst() then
-            InsertIntoEntry(TSTBonusLine, TSTSalesInvLine);
+            InsertIntoEntry(TSTBonusLine, SalesInvoiceLine);
     end;
 
-    local procedure FindBonusOne(var TSTBonusHeader: record "TST Bonus Header"; var TSTSalesInvLine: record "Sales Invoice Line")
+    local procedure FindBonusOne(var TSTBonusHeader: record "TST Bonus Header"; var SalesInvoiceLine: record "Sales Invoice Line")
     var
         TSTBonusLine: Record "TST Bonus Line";
     begin
         TSTBonusLine.SetRange("Document No.", TSTBonusHeader."No.");
         TSTBonusLine.SetRange(Type, TSTBonusLine.Type::Item);
-        TSTBonusLine.SetRange("Item No.", TSTSalesInvLine."No.");
+        TSTBonusLine.SetRange("Item No.", SalesInvoiceLine."No.");
         if TSTBonusLine.FindFirst() then
-            InsertIntoEntry(TSTBonusLine, TSTSalesInvLine);
+            InsertIntoEntry(TSTBonusLine, SalesInvoiceLine);
     end;
 
-    local procedure InsertIntoEntry(var TSTBonusLine: Record "TST Bonus Line"; var TSTSalesInvLine: record "Sales Invoice Line")
+    local procedure InsertIntoEntry(var TSTBonusLine: Record "TST Bonus Line"; var SalesInvoiceLine: record "Sales Invoice Line")
     var
         TSTBonusEntry: Record "TST Bonus Entry";
     begin
         TSTBonusEntry.Init();
         TSTBonusEntry."Entry No." := 0;
         TSTBonusEntry."Bonus No." := TSTBonusLine."Document No.";
-        TSTBonusEntry."Posting date" := TSTSalesInvLine."Posting Date";
-        TSTBonusEntry."Item No." := TSTSalesInvLine."No.";
-        TSTBonusEntry."Bonus Amount" := TSTSalesInvLine."Line Amount" * (TSTBonusLine."Bonus Perc." / 100);
+        TSTBonusEntry."Posting date" := SalesInvoiceLine."Posting Date";
+        TSTBonusEntry."Item No." := SalesInvoiceLine."No.";
+        TSTBonusEntry."Bonus Amount" := SalesInvoiceLine."Line Amount" * (TSTBonusLine."Bonus Perc." / 100);
         TSTBonusEntry.Insert();
     end;
 

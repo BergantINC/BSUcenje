@@ -1,0 +1,754 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="Multisola1">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 722247926 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bonus Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST Bonus Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 722247926 - Field 631925499 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bonus Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST Bonus Entry - Field Bonus Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 722247926 - Field 3518116046 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bonus No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST Bonus Entry - Field Bonus No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 722247926 - Field 486908828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST Bonus Entry - Field Document No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 722247926 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST Bonus Entry - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 722247926 - Field 568743302 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST Bonus Entry - Field Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 722247926 - Field 3897629776 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST Bonus Entry - Field Posting date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1220213307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bonus</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST Bonus Header - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1220213307 - NamedType 1854085928" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status is %1</source>
+          <note from="Developer" annotates="general" priority="2">%1 is Status</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST Bonus Header - NamedType ErrMsg</note>
+        </trans-unit>
+        <trans-unit id="Table 1220213307 - Field 4185029901 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST Bonus Header - Field Customer no. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1220213307 - Field 271759581 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST Bonus Header - Field Ending date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1220213307 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST Bonus Header - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1220213307 - Field 4200172552 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST Bonus Header - Field Starting date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1220213307 - Field 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST Bonus Header - Field Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4178020404 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bonus Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST Bonus Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4178020404 - NamedType 1854085928" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cant be %1</source>
+          <note from="Developer" annotates="general" priority="2">%1 is Status</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST Bonus Line - NamedType ErrMsg</note>
+        </trans-unit>
+        <trans-unit id="Table 4178020404 - Field 422868665 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bonus Perc.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST Bonus Line - Field Bonus Perc. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4178020404 - Field 486908828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST Bonus Line - Field Document No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4178020404 - Field 568743302 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST Bonus Line - Field Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4178020404 - Field 1878130204 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST Bonus Line - Field Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2612278253 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report Selection Table</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST Report Selection Table - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2612278253 - Field 975184216 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Creation time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST Report Selection Table - Field Creation time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2612278253 - Field 1964419135 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Employee No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST Report Selection Table - Field Employee No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2612278253 - Field 3348337029 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Last modified</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST Report Selection Table - Field Last modified - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2612278253 - Field 3046817188 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report Caption</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST Report Selection Table - Field Report Caption - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2612278253 - Field 1272245069 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST Report Selection Table - Field Report ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2612278253 - Field 4154341761 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sequence</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST Report Selection Table - Field Sequence - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2612278253 - Field 1510562767 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>/</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST Report Selection Table - Field Usage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2612278253 - Field 1510562767 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Work,Home,Other</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST Report Selection Table - Field Usage - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 2612278253 - Field 391707542 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Usage</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST Report Selection Table - Field Usage fix - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1755516820 - Field 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST Team Table - Field Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1755516820 - Field 3994797191 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Task</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST Team Table - Field Task - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 898511318 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bonus card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST bonus card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 898511318 - Control 4185029901 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ne vem2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST bonus card - Control Customer no. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 898511318 - Control 4185029901 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer no.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST bonus card - Control Customer no. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 898511318 - Control 271759581 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ne vem4</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST bonus card - Control Ending date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 898511318 - Control 271759581 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST bonus card - Control Ending date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 898511318 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ne vem1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST bonus card - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 898511318 - Control 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST bonus card - Control No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 898511318 - Control 4200172552 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ne vem3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST bonus card - Control Starting date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 898511318 - Control 4200172552 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST bonus card - Control Starting date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 898511318 - Control 513339096 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ne vem5</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST bonus card - Control Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 898511318 - Control 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST bonus card - Control Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 898511318 - Control 3471137671 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST bonus card - Control Lines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 898511318 - Action 3169626393 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gets all the bonus entries made</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST bonus card - Action BonusEntries - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 898511318 - Action 3169626393 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bonus Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST bonus card - Action BonusEntries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 898511318 - Action 1994005900 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>neki ze naredi :^)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST bonus card - Action CustomerCard - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 898511318 - Action 1994005900 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST bonus card - Action CustomerCard - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 614050312 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bonus Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Bonus Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 614050312 - Control 631925499 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Bonus Amount field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Bonus Entries - Control Bonus Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 614050312 - Control 3518116046 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Bonus No. field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Bonus Entries - Control Bonus No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 614050312 - Control 486908828 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Document No. field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Bonus Entries - Control Document No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 614050312 - Control 883711285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Entry No. field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Bonus Entries - Control Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 614050312 - Control 568743302 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Item No. field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Bonus Entries - Control Item No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 614050312 - Control 3897629776 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemCreatedAt field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Bonus Entries - Control Posting date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1405850448 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bonuses</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Bonus List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1405850448 - Control 4185029901 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ne vem2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Bonus List - Control Customer no. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1405850448 - Control 271759581 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ne vem4</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Bonus List - Control Ending date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1405850448 - Control 271759581 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Bonus List - Control Ending date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1405850448 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ne vem1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Bonus List - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1405850448 - Control 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Bonus List - Control No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1405850448 - Control 4200172552 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ne vem3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Bonus List - Control Starting date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1405850448 - Control 4200172552 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Bonus List - Control Starting date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1405850448 - Control 513339096 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ne vem5</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Bonus List - Control Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1405850448 - Control 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Bonus List - Control Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1405850448 - Action 3169626393 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Bonus Entries action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Bonus List - Action BonusEntries - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1405850448 - Action 3169626393 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bonus Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Bonus List - Action BonusEntries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1405850448 - Action 1994005900 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Customer Card action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Bonus List - Action CustomerCard - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1405850448 - Action 1994005900 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Bonus List - Action CustomerCard - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3062327960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Bonus Subform - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3062327960 - Control 422868665 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Hehehe3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Bonus Subform - Control Bonus Perc. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3062327960 - Control 568743302 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Hehehe2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Bonus Subform - Control Item No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3062327960 - Control 1878130204 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Hehehe1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Bonus Subform - Control Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 415441896 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Employee FactBox</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Employee FactBox - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 415441896 - Control 1576740555 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the employee's date of birth.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Employee FactBox - Control Birth Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 415441896 - Control 4159879974 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the social security number of the employee.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Employee FactBox - Control Social Security No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 415441896 - Control 3213961858 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the employee's labor union membership code.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Employee FactBox - Control Union Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 415441896 - Control 3044173818 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the employee's labor union membership number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Employee FactBox - Control Union Membership No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 415441896 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the employee's code/Number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Employee FactBox - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3770964115 - Control 975184216 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Creation time field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Report Selection card - Control Creation time - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3770964115 - Control 1964419135 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies to which Employee the report belongs to</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Report Selection card - Control Employee No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3770964115 - Control 3348337029 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies when the data was last modified</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Report Selection card - Control Last modified - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3770964115 - Control 3046817188 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Report Caption field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Report Selection card - Control Report Caption - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3770964115 - Control 1272245069 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Report ID field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Report Selection card - Control Report ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3770964115 - Control 4154341761 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Sequence field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Report Selection card - Control Sequence - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3770964115 - Control 391707542 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Usage field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Report Selection card - Control Usage fix - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3770964115 - Action 347328507 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens the Employees list</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Report Selection card - Action Employees - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3770964115 - Action 347328507 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Employees</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Report Selection card - Action Employees - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3774801556 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report Selection Quality</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Report Selection Quality - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3774801556 - Control 975184216 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Creation time field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Report Selection Quality - Control Creation time - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3774801556 - Control 1964419135 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies to which Employee the report belongs to</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Report Selection Quality - Control Employee No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3774801556 - Control 3348337029 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies when the data was last modified</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Report Selection Quality - Control Last modified - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3774801556 - Control 3046817188 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Report Caption field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Report Selection Quality - Control Report Caption - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3774801556 - Control 1272245069 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Report ID field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Report Selection Quality - Control Report ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3774801556 - Control 4154341761 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Sequence field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Report Selection Quality - Control Sequence - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3774801556 - Control 391707542 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Usage field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Report Selection Quality - Control Usage fix - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3774801556 - Action 610620534 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Report Card action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Report Selection Quality - Action ReportCard - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3774801556 - Action 610620534 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report Card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Report Selection Quality - Action ReportCard - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 832698390 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Team Card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Team Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 832698390 - Control 3994797191 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Task field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Team Card - Control Task - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 832698390 - Control 3918342599 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Name field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Team Card - Control Team - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 832698390 - Control 3338366602 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Team Members</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Team Card - Control Team Members - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1551714192 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Team List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Team List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1551714192 - Control 2961552353 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Name field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Team List - Control Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1551714192 - Control 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Team List - Control Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1551714192 - Control 3994797191 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Task field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Team List - Control Task - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1551714192 - Control 3994797191 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Task</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Team List - Control Task - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1551714192 - Action 2362618730 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Click action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Team List - Action Click - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1551714192 - Action 2362618730 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Click</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Team List - Action Click - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3244930392 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Caption</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Team Subform - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3244930392 - Control 3444679095 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the employee's first name.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Team Subform - Control First Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3244930392 - Control 2303302321 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the gender with which the employee identifies.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Team Subform - Control Gender - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3244930392 - Control 602795601 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the employee's job title.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Team Subform - Control Job Title - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3244930392 - Control 4068742839 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the employee's last name.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Team Subform - Control Last Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3244930392 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the involved entry or record, according to the specified number series.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Team Subform - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 2255567402 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report Selection</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TST Report Selection DO - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 602650479 - Action 3167064140 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
+          <source>List of bonuses</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TST Customer List - Action TSTBonuses - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 602650479 - Action 3167064140 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
+          <source>Bonuses</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TST Customer List - Action TSTBonuses - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 602650479 - Control 2418784866 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
+          <source>Bonuses to customer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TST Customer List - Control TST No. of Bonuses - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3379834951 - Control 652067758 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 866835530">
+          <source>The name of the team that the Employee belongs to</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TST Employee Card - Control Team Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3379834951 - Control 1590916369 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 866835530">
+          <source>Amount of money to receive</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TST Employee Card - Control TST Salary - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3379834951 - Control 3531288538 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 866835530">
+          <source>Years of employment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TST Employee Card - Control TST Work years - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2325936638 - Control 712171371 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 272934828">
+          <source>Specifies if the Employee is a team lead or not</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TST Employees - Control Team Lead - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2325936638 - Control 652067758 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 272934828">
+          <source>The name of the team that the Employee belongs to</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TST Employees - Control Team Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2325936638 - Control 1590916369 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 272934828">
+          <source>Amount of money to receive</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TST Employees - Control TST Salary - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2325936638 - Control 3531288538 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 272934828">
+          <source>Years of employment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TST Employees - Control TST Work years - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2325936638 - Control 3531288538 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 272934828">
+          <source>Years of employment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TST Employees - Control TST Work years - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2648650582 - Control 1850316272 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>For how long has the item been used</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TST Item Card - Control TST Used - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4109997008 - Control 3405009170 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4178721393">
+          <source>Is the item used or not</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TST Item List - Control TST is Used - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1166825236 - Control 1850316272 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3689007477">
+          <source>Is the item used or not</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TST Sales Invoice Subform - Control TST Used - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1166825236 - Control 1850316272 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3689007477">
+          <source>Used</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TST Sales Invoice Subform - Control TST Used - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 990747385 - NamedType 64170927" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 990747385">
+          <source>At least 1 bonus exists for cust. %1</source>
+          <note from="Developer" annotates="general" priority="2">%1 - customer</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension TST Customer - NamedType Err</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 990747385 - Field 4085342908 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Bonuses</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension TST Customer - Field TST Bonuses - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 631059539 - Field 712171371 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1498446062">
+          <source>Team Lead</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension TST Employee - Field Team Lead - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 631059539 - Field 652067758 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1498446062">
+          <source>Team Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension TST Employee - Field Team Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 631059539 - Field 1590916369 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1498446062">
+          <source>Salary</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension TST Employee - Field TST Salary - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 631059539 - Field 3531288538 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1498446062">
+          <source>Work years</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension TST Employee - Field TST Work years - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1358311185 - Field 1850316272 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Used</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension TST Item Ext - Field TST Used - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3978490991 - Field 1850316272 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2574427010">
+          <source>Used</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension TST Sales Table - Field TST Used - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Profile 3143782376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New Profile</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Profile TST New Profile - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Profile 3143782376 - Property 4111922599" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A test to see a new profile</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Profile TST New Profile - Property ProfileDescription</note>
+        </trans-unit>
+        <trans-unit id="Enum 1705356687 - EnumValue 4259830144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum TST Bonus Header Status - EnumValue Open - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1705356687 - EnumValue 4020758431 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Released</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum TST Bonus Header Status - EnumValue Released - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3740178788 - EnumValue 1705921321 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>All items</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum TST Bonus Line Type - EnumValue All items - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3740178788 - EnumValue 3276313895 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum TST Bonus Line Type - EnumValue Item - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2418659727 - EnumValue 477925417 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Home</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum TST Report Selection Type - EnumValue Home - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2418659727 - EnumValue 3448339824 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Other</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum TST Report Selection Type - EnumValue Other - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2418659727 - EnumValue 1844685107 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Work</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum TST Report Selection Type - EnumValue Work - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 410667098 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bonus registration</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet TST Bonus Reg - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
