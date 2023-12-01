@@ -8,8 +8,7 @@ tableextension 65403 "TST Sales Table" extends "Sales Line"
             Caption = 'Used';
             FieldClass = Normal;
             editable = false;
-
-
+            TableRelation = Item."TST Used";
         }
     }
 
