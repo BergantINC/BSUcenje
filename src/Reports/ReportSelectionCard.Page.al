@@ -4,7 +4,7 @@ page 65405 "TST Report Selection card"
     ApplicationArea = All;
     UsageCategory = Lists;
     SourceTable = "TST Report Selection Table";
-
+    HelpLink = 'https://learn.microsoft.com/en-us/dynamics365/business-central/across-report-selections';
 
 
     layout

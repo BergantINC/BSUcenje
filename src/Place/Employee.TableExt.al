@@ -29,8 +29,8 @@ tableextension 65404 "TST Employee" extends Employee
         {
             DataClassification = CustomerContent;
             Caption = 'Team Name';
-            TableRelation = "TST Team Table".Name;
-            InitValue = 'DEFAULT';
+            TableRelation = "TST Team Table";
+            InitValue = '';
         }
         field(65401; "Team Lead"; Boolean)
         {

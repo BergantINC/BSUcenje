@@ -9,7 +9,7 @@
             "server": "http://bcdocker",
             "serverInstance": "BC",
             "authentication": "UserPassword",
-            "startupObjectId": 65406,
+            "startupObjectId": 9006,
             "startupObjectType": "Page",
             "breakOnError": "All",
             "launchBrowser": true,

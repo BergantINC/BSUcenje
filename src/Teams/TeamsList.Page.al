@@ -33,9 +33,6 @@ page 65406 "TST Team List"
 
         }
     }
-
-
-
     actions
     {
         area(Navigation)
@@ -62,4 +59,16 @@ page 65406 "TST Team List"
             actionref("TestAction_Promoted"; "Team Lead") { }
         }
     }
+
+    trigger OnClosePage()
+    var
+        TeamSet: Record "TST Team Table";
+    begin
+        if TeamSet.Find('-') then
+            repeat
+                if not Confirm('Thou hast found the record of team %1', false, TeamSet) then exit;
+            until TeamSet.Next() = 0;
+
+
+    end;
 }
