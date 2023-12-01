@@ -20,6 +20,11 @@ pageextension 65405 "TST Employee Card" extends "Employee Card"
                 ToolTip = 'The name of the team that the Employee belongs to';
                 ApplicationArea = All;
             }
+            field("Team Lead"; Rec."Team Lead")
+            {
+                ToolTip = 'Is the employee a team lead';
+                ApplicationArea = All;
+            }
         }
 
         addlast(factboxes)

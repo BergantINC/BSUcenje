@@ -10,7 +10,6 @@ table 65404 "TST Team Table"
         {
             Caption = 'Name';
             DataClassification = CustomerContent;
-            InitValue = 'DEFAULT';
         }
         field(2; "Task"; Code[20])
         {

@@ -46,6 +46,12 @@ page 65408 "TST Team Subform"
                     Editable = false;
                     ToolTip = 'Specifies the employee''s job title.';
                 }
+                field("Team Lead"; Rec."Team Lead")
+                {
+                    ApplicationArea = All;
+                    Editable = false;
+                    ToolTip = 'Is the employee a team lead';
+                }
             }
         }
     }

@@ -5,6 +5,7 @@ page 65407 "TST Team Card"
     ApplicationArea = All;
     UsageCategory = None;
     SourceTable = "TST Team Table";
+    Editable = false;
 
 
     layout
@@ -16,13 +17,13 @@ page 65407 "TST Team Card"
                 field("Team"; Rec."Name")
                 {
                     ApplicationArea = All;
-                    Editable = true;
+                    //Editable = true;
                     ToolTip = 'Specifies the value of the Name field.';
                 }
                 field("Task"; Rec.Task)
                 {
                     ApplicationArea = All;
-                    Editable = true;
+                    //Editable = true;
                     ToolTip = 'Specifies the value of the Task field.';
                 }
             }
@@ -37,7 +38,7 @@ page 65407 "TST Team Card"
 
     actions
     {
-        area(Processing)
+        area(Navigation)
         {
         }
     }

@@ -18,7 +18,7 @@ page 65406 "TST Team List"
                     ApplicationArea = All;
                     Caption = 'Name';
                     ToolTip = 'Specifies the value of the Name field.';
-                    DrillDownPageId = "TST Team Card";
+                    //DrillDownPageId = "TST Team Card";
                 }
                 field("Task"; Rec.Task)
                 {
@@ -40,20 +40,26 @@ page 65406 "TST Team List"
     {
         area(Navigation)
         {
-
-            action(Click)
+            action("Team Lead")
             {
                 ApplicationArea = All;
-                ToolTip = 'Executes the Click action.';
-                caption = 'Click';
-                RunObject = page Activity;
-                Image = CustomerRating;
+                Image = TeamSales;
+                ToolTip = 'Executes the TestAction action.';
+                trigger OnAction()
+                var
+                    TeamFunc: Codeunit "TST Team Functionality";
+                    Team: Record "TST Team Table";
+                begin
+                    CurrPage.SetSelectionFilter(Team);
+                    Team.FindFirst();
+                    TeamFunc.OnlyOneLead(Team);
+                end;
             }
         }
 
         area(Promoted)
         {
-            actionref("Click_Promoted"; Click) { }
+            actionref("TestAction_Promoted"; "Team Lead") { }
         }
     }
 }
