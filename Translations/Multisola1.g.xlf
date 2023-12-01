@@ -398,6 +398,91 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page TST Employee FactBox - Control No. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 1463349116 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Multisola</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST New Role Center - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1463349116 - Action 272934828 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Employee List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST New Role Center - Action Employee List - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1463349116 - Action 272934828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Employee List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST New Role Center - Action Employee List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1463349116 - Action 2042117825 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ACC Managment description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST New Role Center - Action ACC Managment - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1463349116 - Action 2042117825 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ACC Managment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST New Role Center - Action ACC Managment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1463349116 - Action 2901867346 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Register new AppNameMasterData</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST New Role Center - Action Customer List - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1463349116 - Action 2901867346 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AppNameMasterData</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST New Role Center - Action Customer List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1463349116 - Action 3683583888 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Analysis Report description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST New Role Center - Action Analysis Report - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1463349116 - Action 3683583888 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Analysis Report</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST New Role Center - Action Analysis Report - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1463349116 - Action 1848868896 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account Schedule description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST New Role Center - Action Account Schedule - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1463349116 - Action 1848868896 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account Schedule</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST New Role Center - Action Account Schedule - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1463349116 - Action 1514883969 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Overview and change system and application settings, and manage extensions and services</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST New Role Center - Action Setup - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1463349116 - Action 1514883969 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST New Role Center - Action Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1463349116 - Action 639522025 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup API</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST New Role Center - Action API Setup - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1463349116 - Action 799089619 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set up core functionality such as sales tax, sending documents as email, and approval workflow by running through a few pages that guide you through the information.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST New Role Center - Action Assisted Setup - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1463349116 - Action 892073532 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enable and configure external services, such as exchange rate updates, Microsoft Social Engagement, and electronic bank integration.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST New Role Center - Action Service Connections - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1463349116 - Action 1985924896 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Define your company policies for business departments and for general activities by filling setup windows manually.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST New Role Center - Action VAT Setup - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 3770964115 - Control 975184216 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Creation time field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -538,15 +623,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page TST Team List - Control Task - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 1551714192 - Action 2362618730 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Executes the Click action.</source>
+        <trans-unit id="Page 1551714192 - Action 712171371 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the TestAction action.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page TST Team List - Action Click - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1551714192 - Action 2362618730 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Click</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page TST Team List - Action Click - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Team List - Action Team Lead - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3244930392 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Caption</source>
@@ -578,6 +658,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page TST Team Subform - Control No. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 3244930392 - Control 712171371 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Is the employee a team lead</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Team Subform - Control Team Lead - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Report 2255567402 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Report Selection</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -597,6 +682,11 @@
           <source>Bonuses to customer</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension TST Customer List - Control TST No. of Bonuses - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3379834951 - Control 712171371 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 866835530">
+          <source>Is the employee a team lead</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TST Employee Card - Control Team Lead - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 3379834951 - Control 652067758 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 866835530">
           <source>The name of the team that the Employee belongs to</source>
