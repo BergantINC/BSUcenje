@@ -30,7 +30,7 @@ tableextension 65404 "TST Employee" extends Employee
             DataClassification = CustomerContent;
             Caption = 'Team Name';
             TableRelation = "TST Team Table";
-            InitValue = '';
+            NotBlank = true;
         }
         field(65401; "Team Lead"; Boolean)
         {

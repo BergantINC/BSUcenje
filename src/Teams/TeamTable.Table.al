@@ -15,7 +15,7 @@ table 65404 "TST Team Table"
         {
             Caption = 'Task';
             DataClassification = CustomerContent;
-            TableRelation = "To-do"."No.";
+            TableRelation = "To-do"."No." where(Closed = const(false)); //Za cekirat boolean
         }
 
     }

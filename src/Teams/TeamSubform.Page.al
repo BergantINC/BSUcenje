@@ -6,7 +6,7 @@ page 65408 "TST Team Subform"
     UsageCategory = Administration;
     SourceTable = Employee;
     //CardPageId = "Employee Card";
-
+    Editable = true;
 
     layout
     {
@@ -17,7 +17,7 @@ page 65408 "TST Team Subform"
                 field("No."; Rec."No.")
                 {
                     ApplicationArea = All;
-                    Editable = false;
+                    Editable = true;
                     ToolTip = 'Specifies the number of the involved entry or record, according to the specified number series.';
                     TableRelation = Employee."No.";
                 }
@@ -44,6 +44,12 @@ page 65408 "TST Team Subform"
                     ApplicationArea = All;
                     Editable = false;
                     ToolTip = 'Specifies the employee''s job title.';
+                }
+                field("Team Name"; Rec."Team Name")
+                {
+                    ApplicationArea = All;
+                    Editable = false;
+                    ToolTip = 'The team that the employee belongs to';
                 }
                 field("Team Lead"; Rec."Team Lead")
                 {

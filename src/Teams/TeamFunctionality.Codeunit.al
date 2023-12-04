@@ -6,6 +6,11 @@ codeunit 65401 "TST Team Functionality"
         FindLeadInTeam(SelectedTeams);
     end;
 
+    procedure FindEmployee(var Employee: Record Employee)
+    begin
+        FindSelectedEmployee(Employee);
+    end;
+
     procedure OpenTask()
     begin
 
@@ -24,6 +29,13 @@ codeunit 65401 "TST Team Functionality"
             repeat
                 if not Confirm('Employee in %1: %2 %3 %4', false, Team.name, Employee."No.", Employee."First Name", Employee."Last Name") then exit;
             until Employee.Next() = 0;
-        end;
+        end else
+            Error('Error: The team is empty, assign THE CHOSEN ONES to it, then assign one member to be a Team Lead!');
+    end;
+
+    local procedure FindSelectedEmployee(var Employee: Record Employee)
+    var
+    begin
+        Message('The selected Employee: %1', Employee);
     end;
 }

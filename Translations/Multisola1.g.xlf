@@ -598,6 +598,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page TST Team Card - Control Team Members - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 832698390 - Action 3502149779 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finds the selected employee</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Team Card - Action Show Employee - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 1551714192 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Team List</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -662,6 +667,11 @@
           <source>Is the employee a team lead</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page TST Team Subform - Control Team Lead - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3244930392 - Control 652067758 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The team that the employee belongs to</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Team Subform - Control Team Name - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Report 2255567402 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Report Selection</source>
