@@ -22,7 +22,4 @@ tableextension 65401 "TST Item Ext" extends Item
     {
         // Add changes to field groups here
     }
-
-    var
-        myInt: Integer;
 }

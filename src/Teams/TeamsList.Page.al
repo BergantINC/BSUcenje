@@ -44,8 +44,8 @@ page 65406 "TST Team List"
                 ToolTip = 'Executes the TestAction action.';
                 trigger OnAction()
                 var
-                    TeamFunc: Codeunit "TST Team Functionality";
                     Team: Record "TST Team Table";
+                    TeamFunc: Codeunit "TST Team Functionality";
                 begin
                     CurrPage.SetSelectionFilter(Team);
                     Team.FindFirst();

@@ -51,8 +51,8 @@ page 65407 "TST Team Card"
                 ToolTip = 'Finds the selected employee';
                 trigger OnAction()
                 var
-                    TeamFunc: Codeunit "TST Team Functionality";
                     Employee: Record Employee;
+                    TeamFunc: Codeunit "TST Team Functionality";
                     Subform: Page "TST Team Subform";
                 begin
                     Subform.SetSelectionFilter(Employee);

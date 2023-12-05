@@ -81,9 +81,6 @@ page 65410 "TST New Role Center"
                 ToolTip = 'Account Schedule description';
                 Image = Report;
                 RunObject = report "Account Schedule";
-                Promoted = true;
-                PromotedCategory = Report;
-                PromotedIsBig = true;
                 ApplicationArea = Basic, Suite;
             }
 

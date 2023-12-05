@@ -84,7 +84,4 @@ page 65401 "TST bonus card"
             }
         }
     }
-
-    var
-        myInt: Integer;
 }

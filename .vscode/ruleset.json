@@ -1,0 +1,10 @@
+{
+    "name": "Custom ruleset",
+    "description": "Custom ruleset for suppresing CodeCop warning AA0215",
+    "rules": [
+        {
+            "id": "AA0215",
+            "Action": "None"
+        }
+    ]
+}
