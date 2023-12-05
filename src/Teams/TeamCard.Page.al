@@ -19,7 +19,7 @@ page 65407 "TST Team Card"
                     ApplicationArea = All;
                     //Editable = true;
                     ToolTip = 'Specifies the value of the Name field.';
-                    Editable = false;
+                    Editable = true;
                 }
                 field("Task"; Rec.Task)
                 {
@@ -60,6 +60,32 @@ page 65407 "TST Team Card"
                     TeamFunc.FindEmployee(Employee);
                 end;
             }
+            //TODO
+            /*action("Assign Task") 
+            {
+                ApplicationArea = All;
+                Image = Task;
+                ToolTip = 'Assign a Task to the selected team';
+
+                trigger OnAction()
+                var
+                    Tasks: Record "To-do";
+                begin
+                    Tasks.SetRange(Closed, false);
+                    if Tasks.FindSet() then
+                        repeat
+                            if Tasks.FindFirst() then begin
+                                Rec.Task := Tasks."No.";
+                                Rec.Validate(Task);
+                            end;
+                        until Tasks.Next() = 0;
+                end;
+            }*/
+        }
+        area(Promoted)
+        {
+            actionref("ShowEmployee_Promoted"; "Show Employee") { }
+            /*actionref("AssignTask_Promoted"; "Assign Task") { }*/
         }
     }
 }

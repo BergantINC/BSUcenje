@@ -163,6 +163,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table TST Team Table - Field Task - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Codeunit 714483639 - Method 2296444853 - NamedType 868033972" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error: More than one Team Lead, please select only THE CHOSEN ONE!</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TST Team Functionality - Method FindLeadInTeam - NamedType ErrMore</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 714483639 - Method 2296444853 - NamedType 3453359864" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error: Less than one Team Lead, please select THE CHOSEN ONE!</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TST Team Functionality - Method FindLeadInTeam - NamedType ErrLess</note>
+        </trans-unit>
         <trans-unit id="Page 898511318 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bonus card</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -597,6 +607,11 @@
           <source>Team Members</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page TST Team Card - Control Team Members - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 832698390 - Action 3494881272 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assign a Task to the selected team</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Team Card - Action Assign Task - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 832698390 - Action 3502149779 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Finds the selected employee</source>

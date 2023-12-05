@@ -19,13 +19,15 @@ codeunit 65401 "TST Team Functionality"
     local procedure FindLeadInTeam(var Team: Record "TST Team Table")
     var
         Employee: Record Employee;
+        ErrMore: Label 'Error: More than one Team Lead, please select only THE CHOSEN ONE!';
+        ErrLess: Label 'Error: Less than one Team Lead, please select THE CHOSEN ONE!';
     begin
         Employee.SetFilter("Team Name", Team.Name);
         Employee.SetRange("Team Lead", true);
 
         if Employee.FindSet() then begin
-            if Employee.Count > 1 then Error('Error: More than one Team Lead, please select only THE CHOSEN ONE!');
-            if Employee.Count < 1 then Error('Error: Less than one Team Lead, please select THE CHOSEN ONE!');
+            if Employee.Count > 1 then Error(ErrMore);
+            if Employee.Count < 1 then Error(ErrLess);
             repeat
                 if not Confirm('Employee in %1: %2 %3 %4', false, Team.name, Employee."No.", Employee."First Name", Employee."Last Name") then exit;
             until Employee.Next() = 0;
@@ -33,7 +35,7 @@ codeunit 65401 "TST Team Functionality"
             Error('Error: The team is empty, assign THE CHOSEN ONES to it, then assign one member to be a Team Lead!');
     end;
 
-    local procedure FindSelectedEmployee(var Employee: Record Employee)
+    local procedure FindSelectedEmployee(var Employee: Record Employee) //Doesnt work as intended (at all)
     var
     begin
         Message('The selected Employee: %1', Employee);
