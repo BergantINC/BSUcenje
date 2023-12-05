@@ -1,5 +1,6 @@
 {
     "al.enableCodeAnalysis": true,
     "al.codeAnalyzers": ["${CodeCop}", "${PerTenantExtensionCop}", "${UICop}"],
+    "al.backgroundCodeAnalysis": false,
     "al.ruleSetPath": "./.vscode/ruleset.json"
 }
