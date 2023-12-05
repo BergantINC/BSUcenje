@@ -1,7 +1,11 @@
 {
     "name": "Custom ruleset",
-    "description": "Custom ruleset for suppresing CodeCop warning AA0215",
+    "description": "Custom ruleset for suppresing CodeCop warning AA0215 and AA0072",
     "rules": [
+        {
+            "id": "AA0072",
+            "action": "None"
+        },
         {
             "id": "AA0215",
             "Action": "None"
