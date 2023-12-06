@@ -76,6 +76,24 @@ page 65411 "TST Teams Card Part"
                     }
                 }
             }
+            cuegroup("Event test")
+            {
+                actions
+                {
+                    action("Test")
+                    {
+                        ApplicationArea = All;
+                        Image = TileSettings;
+
+                        trigger OnAction()
+                        var
+                            PublishedEvents: Codeunit "TST Published Events";
+                        begin
+                            PublishedEvents.Prompt();
+                        end;
+                    }
+                }
+            }
         }
     }
 

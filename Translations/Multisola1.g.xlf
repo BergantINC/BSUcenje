@@ -168,6 +168,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table TST Team Table - Field Task - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Codeunit 4052024151 - Method 3632577022 - NamedType 3004040435" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The number of employed personal is: %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TST All Events - Method CountEmployees - NamedType Msg</note>
+        </trans-unit>
         <trans-unit id="Codeunit 714483639 - Method 2296444853 - NamedType 868033972" size-unit="char" translate="yes" xml:space="preserve">
           <source>Error: More than one Team Lead, please select only THE CHOSEN ONE!</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -417,6 +422,11 @@
           <source>Specifies the employee's code/Number.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page TST Employee FactBox - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1852413482 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Standard Dialog Test</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST My Copilot Page - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1463349116 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Multisola</source>
