@@ -17,6 +17,12 @@ table 65404 "TST Team Table"
             DataClassification = CustomerContent;
             TableRelation = "To-do"."No." where(Closed = const(false)); //Za cekirat boolean
         }
+        field(3; "Number of Teams"; Integer)
+        {
+            Caption = 'Number of Teams';
+            FieldClass = FlowField;
+            CalcFormula = count("TST Team Table");
+        }
 
     }
 

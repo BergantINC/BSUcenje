@@ -15,6 +15,10 @@ page 65410 "TST New Role Center"
             {
                 ApplicationArea = Basic, Suite;
             }
+            part(Team; "TST Teams Card Part")
+            {
+                ApplicationArea = All;
+            }
             part("Help And Chart Wrapper"; "Help And Chart Wrapper")
             {
                 ApplicationArea = Basic, Suite;
@@ -110,6 +114,11 @@ page 65410 "TST New Role Center"
             {
                 RunObject = page "TST Team List";
                 ApplicationArea = Basic, Suite;
+            }
+            action("Tasks")
+            {
+                RunObject = Page "Task List";
+                ApplicationArea = All;
             }
 
         }

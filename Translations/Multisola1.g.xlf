@@ -158,6 +158,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table TST Team Table - Field Name - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1755516820 - Field 770883000 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Number of Teams</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST Team Table - Field Number of Teams - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1755516820 - Field 3994797191 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Task</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -172,6 +177,11 @@
           <source>Error: Less than one Team Lead, please select THE CHOSEN ONE!</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit TST Team Functionality - Method FindLeadInTeam - NamedType ErrLess</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 714483639 - Method 475659116 - NamedType 3004040435" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Is it me?: %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TST Team Functionality - Method FindMeLocal - NamedType Msg</note>
         </trans-unit>
         <trans-unit id="Page 898511318 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bonus card</source>
@@ -608,11 +618,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page TST Team Card - Control Team Members - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 832698390 - Action 3494881272 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Assign a Task to the selected team</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page TST Team Card - Action Assign Task - Property ToolTip</note>
-        </trans-unit>
         <trans-unit id="Page 832698390 - Action 3502149779 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Finds the selected employee</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -688,10 +693,35 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page TST Team Subform - Control Team Name - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 250823010 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Teams Card Part</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Teams Card Part - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 250823010 - Action 2090648242 - Method 1377591017 - NamedType 3004040435" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The bussiest team is %1!</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Teams Card Part - Action Show Team - Method OnAction - NamedType Msg</note>
+        </trans-unit>
+        <trans-unit id="Page 250823010 - Action 2421772528 - Method 1377591017 - NamedType 3004040435" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The most efficient team is the team with me in it and that is Team %1!</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Teams Card Part - Action Team reveal - Method OnAction - NamedType Msg</note>
+        </trans-unit>
+        <trans-unit id="Page 250823010 - Control 770883000 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The number of teams</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Teams Card Part - Control Number of Teams - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Report 2255567402 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Report Selection</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report TST Report Selection DO - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2430791062 - Control 244206854 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3218241539">
+          <source>Team</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TST Create Task - Control Team Code 2 - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 602650479 - Action 3167064140 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
           <source>List of bonuses</source>
@@ -773,6 +803,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension TST Sales Invoice Subform - Control TST Used - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3867097552 - Control 244206854 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 126063057">
+          <source>Real teams only</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TST Task List - Control Team Code 2 - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="TableExtension 990747385 - NamedType 64170927" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 990747385">
           <source>At least 1 bonus exists for cust. %1</source>
           <note from="Developer" annotates="general" priority="2">%1 - customer</note>
@@ -812,6 +847,16 @@
           <source>Used</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension TST Sales Table - Field TST Used - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1288306473 - Field 250114848 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1837078383">
+          <source>Completed by</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension TST Task Complete - Field Completed by 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1288306473 - Field 244206854 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1837078383">
+          <source>Team code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension TST Task Complete - Field Team Code 2 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Profile 3143782376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>New Profile</source>
