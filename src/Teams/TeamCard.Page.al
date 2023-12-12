@@ -108,6 +108,7 @@ page 65407 "TST Team Card"
         area(Promoted)
         {
             actionref("ShowEmployee_Promoted"; "Show Employee") { }
+            actionref("SendMail_Promoted"; "Send Mail") { }
             /*actionref("AssignTask_Promoted"; "Assign Task") { }*/
         }
     }
