@@ -29,6 +29,14 @@ page 65407 "TST Team Card"
                     Editable = false;
                 }
             }
+            usercontrol(Comm; InterPageCommunication)
+            {
+                ApplicationArea = All;
+                trigger PingFromSubPage()
+                begin
+                    Message('Hello from subpage!');
+                end;
+            }
             part("Team Members"; "TST Team Subform")
             {
                 Editable = true;

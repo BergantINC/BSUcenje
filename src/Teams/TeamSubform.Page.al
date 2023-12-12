@@ -58,13 +58,22 @@ page 65408 "TST Team Subform"
                     ToolTip = 'Is the employee a team lead';
                 }
             }
+            usercontrol(Comm; InterPageCommunication)
+            {
+
+            }
         }
     }
 
-    actions
-    {
-        area(Processing)
-        {
-        }
-    }
+    trigger OnAfterGetCurrRecord()
+    begin
+        CurrPage.Comm.PingParentPage();
+    end;
+}
+
+controladdin InterPageCommunication
+{
+    Scripts = 'src/Teams/interPageCommunication.js';
+    event PingFromSubPage();
+    procedure PingParentPage();
 }
