@@ -68,6 +68,21 @@ page 65407 "TST Team Card"
                     TeamFunc.FindEmployee(Employee);
                 end;
             }
+
+            action("Send Mail")
+            {
+                ApplicationArea = All;
+                Image = PostMail;
+
+                trigger OnAction()
+                var
+                    TheMessage: Codeunit "Email Message";
+                    Email: Codeunit Email;
+                begin
+                    TheMessage.Create('nejc.bergant@b-s.si', 'AL Learning Project', 'The content we all want but dont deserve: FEET!');
+                    //Email.Send(TheMessage);
+                end;
+            }
             //TODO
             /*action("Assign Task") 
             {
