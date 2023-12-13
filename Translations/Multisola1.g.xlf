@@ -773,6 +773,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension TST Employee Card - Control TST Work years - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2325936638 - Action 3641444944 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 272934828">
+          <source>Employee Info</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TST Employees - Action Employee Info - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2325936638 - Control 712171371 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 272934828">
           <source>Specifies if the Employee is a team lead or not</source>
           <note from="Developer" annotates="general" priority="2"></note>

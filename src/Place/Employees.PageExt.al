@@ -34,7 +34,29 @@ pageextension 65403 "TST Employees" extends "Employee List"
 
     actions
     {
-        // Add changes to page actions here
+        addfirst(processing)
+        {
+            action("Employee Info")
+            {
+                ApplicationArea = All;
+                Image = Employee;
+                Caption = 'Employee Info';
+
+                trigger OnAction()
+                var
+                    Managment: Codeunit "TST Managment";
+                    Employee: Record Employee;
+                begin
+                    CurrPage.SetSelectionFilter(Employee);
+                    Employee.FindFirst();
+                    Message(Managment.GetName(Employee) + '\' + Managment.GetSurname(Employee) + '\' + Format(Managment.GetGender(Employee)) + '\' + Format(Managment.GetBirthday(Employee)) + '\' + Managment.GetMail(Employee) + '\' + Managment.GetTeam(Employee));
+                end;
+            }
+        }
+        addfirst(Promoted)
+        {
+            actionref("EmployeeInfo_Promoted"; "Employee Info") { }
+        }
     }
 
     var
