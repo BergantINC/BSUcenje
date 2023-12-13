@@ -623,6 +623,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page TST Team Card - Control Team - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 832698390 - Control 2516101377 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mail Form</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Team Card - Control Mail Form - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 832698390 - Control 3338366602 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Team Members</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -869,7 +874,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension TST Task Complete - Field Team Code 2 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Profile 3143782376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>New Profile</source>
+          <source>My Profile</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Profile TST New Profile - Property Caption</note>
         </trans-unit>

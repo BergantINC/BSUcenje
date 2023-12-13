@@ -45,6 +45,12 @@ page 65407 "TST Team Card"
                 SubPageLink = "Team Name" = field("Name");
             }
 
+            part("Mail Form"; "TST Send Mail")
+            {
+                ApplicationArea = All;
+                Caption = 'Mail Form';
+            }
+
         }
     }
 
@@ -68,47 +74,11 @@ page 65407 "TST Team Card"
                     TeamFunc.FindEmployee(Employee);
                 end;
             }
-
-            action("Send Mail")
-            {
-                ApplicationArea = All;
-                Image = PostMail;
-
-                trigger OnAction()
-                var
-                    TheMessage: Codeunit "Email Message";
-                    Email: Codeunit Email;
-                begin
-                    TheMessage.Create('nejc.bergant@b-s.si', 'AL Learning Project', 'The content we all want but dont deserve: FEET!');
-                    //Email.Send(TheMessage);
-                end;
-            }
-            //TODO
-            /*action("Assign Task") 
-            {
-                ApplicationArea = All;
-                Image = Task;
-                ToolTip = 'Assign a Task to the selected team';
-
-                trigger OnAction()
-                var
-                    Tasks: Record "To-do";
-                begin
-                    Tasks.SetRange(Closed, false);
-                    if Tasks.FindSet() then
-                        repeat
-                            if Tasks.FindFirst() then begin
-                                Rec.Task := Tasks."No.";
-                                Rec.Validate(Task);
-                            end;
-                        until Tasks.Next() = 0;
-                end;
-            }*/
         }
+
         area(Promoted)
         {
             actionref("ShowEmployee_Promoted"; "Show Employee") { }
-            actionref("SendMail_Promoted"; "Send Mail") { }
             /*actionref("AssignTask_Promoted"; "Assign Task") { }*/
         }
     }
