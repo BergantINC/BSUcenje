@@ -10,9 +10,9 @@ codeunit 65404 "TST Managment" implements EmployeeInterface
         exit(Employee."Last Name");
     end;
 
-    procedure GetGender(Employee: Record Employee): Enum "Employee Gender"
+    procedure GetGender(Employee: Record Employee): Text
     begin
-        exit(Employee.Gender);
+        exit(Format(Employee.Gender));
     end;
 
     procedure GetMail(Employee: Record Employee): Text
@@ -30,5 +30,10 @@ codeunit 65404 "TST Managment" implements EmployeeInterface
     procedure GetTeam(Employee: Record Employee): Text
     begin
         exit(Employee."Team Name");
+    end;
+
+    procedure GetAge(Employee: Record Employee): Decimal
+    begin
+        exit(round((Today() - GetBirthday(Employee)) / 365));
     end;
 }

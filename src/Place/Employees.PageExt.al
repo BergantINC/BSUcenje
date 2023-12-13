@@ -49,7 +49,8 @@ pageextension 65403 "TST Employees" extends "Employee List"
                 begin
                     CurrPage.SetSelectionFilter(Employee);
                     Employee.FindFirst();
-                    Message(Managment.GetName(Employee) + '\' + Managment.GetSurname(Employee) + '\' + Format(Managment.GetGender(Employee)) + '\' + Format(Managment.GetBirthday(Employee)) + '\' + Managment.GetMail(Employee) + '\' + Managment.GetTeam(Employee));
+                    Message(Managment.GetName(Employee) + '\' + Managment.GetSurname(Employee) + '\' + Managment.GetGender(Employee) + '\' + Format(Managment.GetBirthday(Employee)) +
+                    '\' + Managment.GetMail(Employee) + '\' + Managment.GetTeam(Employee) + '\Age: %1', Managment.GetAge(Employee));
                 end;
             }
         }
