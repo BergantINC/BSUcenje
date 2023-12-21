@@ -1,13 +1,13 @@
 controladdin Workbench
 {
-    MaximumHeight = 1;
-    MaximumWidth = 1;
-    MinimumHeight = 1;
-    MinimumWidth = 1;
+    MaximumHeight = 10000;
+    MaximumWidth = 10000;
+    MinimumHeight = 100;
+    MinimumWidth = 60;
     HorizontalShrink = true;
     HorizontalStretch = true;
-    RequestedHeight = 1;
-    RequestedWidth = 1;
+    RequestedHeight = 150;
+    RequestedWidth = 78;
     Scripts = 'src/Codeunits/workbench.js';
     StartupScript = 'src/Codeunits/startup.js';
 

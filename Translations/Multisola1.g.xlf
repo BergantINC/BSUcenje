@@ -733,6 +733,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page TST Teams Card Part - Control Number of Teams - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 111520745 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Javascript Terminal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Terminal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 111520745 - Control 3102267349 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Terminal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Terminal - Control Workbench - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 700244948 - Control 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Code</source>
           <note from="Developer" annotates="general" priority="2"></note>

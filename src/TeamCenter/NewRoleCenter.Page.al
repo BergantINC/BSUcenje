@@ -115,9 +115,9 @@ page 65410 "TST New Role Center"
                 RunObject = page "TST Team List";
                 ApplicationArea = Basic, Suite;
             }
-            action("Tasks")
+            action("Terminal")
             {
-                RunObject = Page "Task List";
+                RunObject = Page "TST Terminal";
                 ApplicationArea = All;
             }
 
