@@ -68,7 +68,13 @@ page 65406 "TST Team List"
             repeat
                 if not Confirm('Thou hast found the record of team %1', false, TeamSet) then exit;
             until TeamSet.Next() = 0;
+    end;
 
-
+    trigger OnOpenPage()
+    var
+        Json: Codeunit "TST Managment";
+    begin
+        Rec.FindFirst();
+        if not Confirm('%1', false, Json.Rec2Json(Rec)) then exit;
     end;
 }

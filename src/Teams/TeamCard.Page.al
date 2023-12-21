@@ -29,6 +29,11 @@ page 65407 "TST Team Card"
                     Editable = false;
                 }
             }
+            part(Workbench; "TST Workbench")
+            {
+                Caption = 'Javascript Terminal';
+                ApplicationArea = All;
+            }
             usercontrol(Comm; InterPageCommunication)
             {
                 ApplicationArea = All;

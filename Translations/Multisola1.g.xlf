@@ -633,6 +633,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page TST Team Card - Control Team Members - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 832698390 - Control 3102267349 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Javascript Terminal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Team Card - Control Workbench - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 832698390 - Action 3502149779 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Finds the selected employee</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -727,6 +732,16 @@
           <source>The number of teams</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page TST Teams Card Part - Control Number of Teams - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 700244948 - Control 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Workbench - Control Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 700244948 - Control 2248886284 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Message Area</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Workbench - Control Error - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 2255567402 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Report Selection</source>

@@ -71,4 +71,49 @@ codeunit 65404 "TST Managment" implements EmployeeInterface
         Item.Picture.ImportStream(Stream, 'New Image');
         Item.Modify(true);
     end;
+
+    procedure Rec2Json(Rec: Variant): JsonObject
+    var
+        Ref: RecordRef;
+        Output: JsonObject;
+        FieldRef: FieldRef;
+        i: Integer;
+    begin
+        if not Rec.IsRecord then
+            Error('Parameter is not a record, fool of a Tuk!');
+        Ref.GetTable(Rec);
+        for i := 1 to Ref.FieldCount() do begin
+            FieldRef := Ref.FieldIndex(i);
+            if not (FieldRef.Name = 'Number of Teams') then
+                Output.Add(FieldRef.Name, FieldRef2JsonValue(FieldRef));
+        end;
+        exit(Output);
+    end;
+
+    local procedure FieldRef2JsonValue(FieldRef: FieldRef): JsonValue
+    var
+        json: JsonValue;
+        Datic: Date;
+        Tekstic: Text;
+        Codic: Code[20];
+    begin
+        case FieldRef.Type() of
+            FieldType::Date:
+                begin
+                    Datic := FieldRef.Value;
+                    json.SetValue(Datic);
+                end;
+            Fieldtype::Text:
+                begin
+                    Tekstic := FieldRef.Value;
+                    json.SetValue(Tekstic);
+                end;
+            Fieldtype::Code:
+                begin
+                    Codic := FieldRef.Value;
+                    json.SetValue(Codic);
+                end;
+        end;
+        exit(json);
+    end;
 }

@@ -8,8 +8,8 @@ controladdin Workbench
     HorizontalStretch = true;
     RequestedHeight = 1;
     RequestedWidth = 1;
-    Scripts = 'workbench.js';
-    StartupScript = 'startup.js';
+    Scripts = 'src/Codeunits/workbench.js';
+    StartupScript = 'src/Codeunits/startup.js';
 
     event ControlReady();
     procedure Execute(Code: Text);
