@@ -14,6 +14,7 @@ page 65412 "TST My Copilot Page"
             {
                 field(Name; Rec.Name)
                 {
+                    Editable = false;
                     ApplicationArea = All;
                 }
             }

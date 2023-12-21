@@ -6,8 +6,6 @@ page 65407 "TST Team Card"
     UsageCategory = None;
     SourceTable = "TST Team Table";
 
-
-
     layout
     {
         area(Content)
@@ -53,7 +51,6 @@ page 65407 "TST Team Card"
 
         }
     }
-
     actions
     {
         area(Navigation)
@@ -74,17 +71,12 @@ page 65407 "TST Team Card"
                     TeamFunc.FindEmployee(Employee);
                 end;
             }
-
-
         }
 
         area(Promoted)
         {
             actionref("ShowEmployee_Promoted"; "Show Employee") { }
-
             /*actionref("AssignTask_Promoted"; "Assign Task") { }*/
         }
     }
-
-
 }
