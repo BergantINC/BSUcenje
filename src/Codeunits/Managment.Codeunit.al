@@ -36,4 +36,39 @@ codeunit 65404 "TST Managment" implements EmployeeInterface
     begin
         exit(round((Today() - GetBirthday(Employee)) / 365));
     end;
+
+    procedure ChangeToBlackAndWhitePicture(Item: Record Item)
+    var
+        TenantMedia: Record "Tenant Media";
+        Client: HttpClient;
+        Content: HttpContent;
+        ResponseMessage: HttpResponseMessage;
+        Stream: InStream;
+        Url: Text;
+    begin
+        if not (Item.Picture.Count() > 0) then
+            exit;
+
+        if not TenantMedia.Get(Item.Picture.Item(1)) then
+            exit;
+
+        TenantMedia.CalcFields(Content);
+
+        if not TenantMedia.Content.HasValue() then
+            exit;
+
+        TenantMedia.Content.CreateInStream(Stream);
+        Content.WriteFrom(Stream);
+        Url := 'https://mywebsite.com/ImageConverter';
+        if not client.Post(Url, Content, ResponseMessage) then
+            exit;
+
+        if not ResponseMessage.IsSuccessStatusCode() then
+            exit;
+
+        ResponseMessage.Content().ReadAs(Stream);
+        Clear(Item.Picture);
+        Item.Picture.ImportStream(Stream, 'New Image');
+        Item.Modify(true);
+    end;
 }
