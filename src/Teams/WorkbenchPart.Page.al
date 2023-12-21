@@ -12,6 +12,8 @@ page 65414 "TST Workbench"
                 ApplicationArea = all;
                 MultiLine = true;
                 Editable = true;
+                StyleExpr = SetStyleExpr;
+                Style = Favorable;
                 trigger OnValidate()
                 begin
                     GlobalErrorTxt := '';
@@ -24,7 +26,9 @@ page 65414 "TST Workbench"
                 ShowCaption = false;
                 ApplicationArea = all;
                 Editable = false;
-                MultiLine = true;
+                MultiLine = false;
+                Style = Unfavorable;
+                StyleExpr = true;
             }
             usercontrol(JS; Workbench)
             {
@@ -32,11 +36,23 @@ page 65414 "TST Workbench"
                 trigger Error(ErrorTxt: Text)
                 begin
                     GlobalErrorTxt := ErrorTxt;
+                    SetStyleExpr := false;
+                end;
+
+                trigger Executed()
+                begin
+                    SetStyleExpr := true;
                 end;
             }
         }
     }
+    trigger OnOpenPage()
+    begin
+        SetStyleExpr := true;
+    end;
+
     var
         CodeTxt: Text;
         GlobalErrorTxt: Text;
+        SetStyleExpr: Boolean;
 }

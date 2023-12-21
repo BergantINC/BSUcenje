@@ -52,11 +52,23 @@ page 65406 "TST Team List"
                     TeamFunc.OnlyOneLead(Team);
                 end;
             }
+            action("Export Teams")
+            {
+                ApplicationArea = All;
+                Image = Excel;
+                Tooltip = 'Exports Teams to Excel.';
+                trigger OnAction()
+                begin
+                    ExportExcelEntries();
+                end;
+
+            }
         }
 
         area(Promoted)
         {
             actionref("TestAction_Promoted"; "Team Lead") { }
+            actionref("ExportTeams_Promoted"; "Export Teams") { }
         }
     }
 
@@ -76,5 +88,37 @@ page 65406 "TST Team List"
     begin
         Rec.FindFirst();
         if not Confirm('%1', false, Json.Rec2Json(Rec)) then exit;
+    end;
+
+    local procedure ExportExcelEntries()
+    var
+        ExcelBuffer: Record "Excel Buffer" temporary;
+        MyRec: Record "TST Team Table";
+        TeamFunc: Codeunit "TST Team Functionality";
+    begin
+        ExcelBuffer.Reset();
+        ExcelBuffer.DeleteAll();
+        ExcelBuffer.NewRow();
+
+        ExcelBuffer.AddColumn(MyRec.FieldCaption(Name), false, '', false, false, false, '', ExcelBuffer."Cell Type"::Text);
+        ExcelBuffer.AddColumn(MyRec.FieldCaption(Task), false, '', false, false, false, '', ExcelBuffer."Cell Type"::Text);
+        ExcelBuffer.AddColumn('Team Lead', false, '', false, false, false, '', ExcelBuffer."Cell Type"::Text);
+
+        if MyRec.FindSet() then
+            repeat
+                ExcelBuffer.NewRow();
+                ExcelBuffer.AddColumn(MyRec.Name, false, '', false, false, false, '', ExcelBuffer."Cell Type"::Text);
+                if (MyRec.Task = '') then
+                    ExcelBuffer.AddColumn('/', false, '', false, false, false, '', ExcelBuffer."Cell Type"::Text)
+                else
+                    ExcelBuffer.AddColumn(MyRec.Task, false, '', false, false, false, '', ExcelBuffer."Cell Type"::Text);
+                ExcelBuffer.AddColumn(TeamFunc.FindLeadInTeamExcel(MyRec), false, '', false, false, false, '', ExcelBuffer."Cell Type"::Text);
+            until MyRec.Next() = 0;
+
+        ExcelBuffer.CreateNewBook('Page1');
+        ExcelBuffer.WriteSheet('Page1', CompanyName, UserId);
+        ExcelBuffer.CloseBook();
+        ExcelBuffer.SetFriendlyFilename('AllTeams');
+        ExcelBuffer.OpenExcel();
     end;
 }

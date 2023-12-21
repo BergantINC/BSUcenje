@@ -58,6 +58,28 @@ codeunit 65401 "TST Team Functionality"
             Error('Error: The team is empty, assign THE CHOSEN ONES to it, then assign one member to be a Team Lead!');
     end;
 
+    procedure FindLeadInTeamExcel(var Team: Record "TST Team Table"): Text
+    var
+        Employee: Record Employee;
+        ErrMore: Label 'Error: More than one Team Lead, please select only THE CHOSEN ONE!';
+        ErrLess: Label 'Error: Less than one Team Lead, please select THE CHOSEN ONE!';
+    begin
+        Employee.SetFilter("Team Name", Team.Name);
+        Employee.SetRange("Team Lead", true);
+
+        if Employee.FindSet() then begin
+            if Employee.Count > 1 then Exit('/');
+            if Employee.Count < 1 then Exit('/');
+            repeat
+                if not (Employee."First Name" = '') then
+                    exit(Employee."First Name" + ' ' + Employee."Last Name")
+                else
+                    exit('/');
+            until Employee.Next() = 0;
+        end;
+        exit('/');
+    end;
+
     local procedure BussiestTeamLocal(var Team: Record "TST Team Table"): Integer
     var
         Tasks: Record "To-do";

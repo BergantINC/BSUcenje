@@ -183,6 +183,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit TST Team Functionality - Method FindLeadInTeam - NamedType ErrLess</note>
         </trans-unit>
+        <trans-unit id="Codeunit 714483639 - Method 861858848 - NamedType 868033972" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error: More than one Team Lead, please select only THE CHOSEN ONE!</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TST Team Functionality - Method FindLeadInTeamExcel - NamedType ErrMore</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 714483639 - Method 861858848 - NamedType 3453359864" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error: Less than one Team Lead, please select THE CHOSEN ONE!</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TST Team Functionality - Method FindLeadInTeamExcel - NamedType ErrLess</note>
+        </trans-unit>
         <trans-unit id="Codeunit 714483639 - Method 475659116 - NamedType 3004040435" size-unit="char" translate="yes" xml:space="preserve">
           <source>Is it me?: %1</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -633,11 +643,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page TST Team Card - Control Team Members - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 832698390 - Control 3102267349 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Javascript Terminal</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page TST Team Card - Control Workbench - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Page 832698390 - Action 3502149779 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Finds the selected employee</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -667,6 +672,11 @@
           <source>Task</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page TST Team List - Control Task - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1551714192 - Action 4237502310 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exports Teams to Excel.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Team List - Action Export Teams - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1551714192 - Action 712171371 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Executes the TestAction action.</source>

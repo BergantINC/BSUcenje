@@ -3,6 +3,7 @@ function Execute(code)
     try
     {
       eval(code);
+      Microsoft.Dynamics.NAV.InvokeExtensibilityMethod('Executed');
     }
     catch(e)
     {

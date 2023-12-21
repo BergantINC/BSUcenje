@@ -14,4 +14,5 @@ controladdin Workbench
     event ControlReady();
     procedure Execute(Code: Text);
     event Error(ErrorTxt: Text);
+    event Executed();
 }

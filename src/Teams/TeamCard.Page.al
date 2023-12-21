@@ -74,12 +74,17 @@ page 65407 "TST Team Card"
                     TeamFunc.FindEmployee(Employee);
                 end;
             }
+
+
         }
 
         area(Promoted)
         {
             actionref("ShowEmployee_Promoted"; "Show Employee") { }
+
             /*actionref("AssignTask_Promoted"; "Assign Task") { }*/
         }
     }
+
+
 }
