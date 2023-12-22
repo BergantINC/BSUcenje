@@ -141,4 +141,11 @@ codeunit 65404 "TST Managment" implements EmployeeInterface
         end else
             Error('Something went wrong with the upload, please refresh the site and try again.');
     end;
+
+    procedure ToZIP()
+    var
+        zip: Codeunit "Data Compression";
+    begin
+        //TODO
+    end;
 }
