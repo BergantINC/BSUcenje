@@ -41,7 +41,29 @@ pageextension 65405 "TST Employee Card" extends "Employee Card"
 
     actions
     {
-        // Add changes to page actions here
+        addfirst(navigation)
+        {
+            group("Multisola")
+            {
+                action("Set Image")
+                {
+                    ApplicationArea = All;
+                    Image = ImplementRegAbsence;
+                    trigger OnAction()
+                    var
+                        Management: codeunit "TST Managment";
+                    begin
+                        Management.SetImage(Rec);
+                    end;
+                }
+            }
+
+        }
+
+        addfirst(Promoted)
+        {
+            //actionref("SetImage_Promoted"; "Set Image") { }
+        }
     }
 
 

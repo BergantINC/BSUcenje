@@ -23,6 +23,11 @@ table 65404 "TST Team Table"
             FieldClass = FlowField;
             CalcFormula = count("TST Team Table");
         }
+        field(4; "Team Spirit"; Media)
+        {
+            Caption = 'Image of the Team Spirit';
+            DataClassification = CustomerContent;
+        }
 
     }
 

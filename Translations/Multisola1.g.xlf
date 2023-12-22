@@ -168,6 +168,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table TST Team Table - Field Task - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1755516820 - Field 1359307932 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Image of the Team Spirit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST Team Table - Field Team Spirit - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Codeunit 4052024151 - Method 3632577022 - NamedType 3004040435" size-unit="char" translate="yes" xml:space="preserve">
           <source>The number of employed personal is: %1</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -663,6 +668,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page TST Team List - Control Name - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 1551714192 - Control 3047993741 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Spirit Animal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Team List - Control Spirit Animal - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1551714192 - Control 3994797191 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Task field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -682,6 +692,11 @@
           <source>Executes the TestAction action.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page TST Team List - Action Team Lead - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2745039853 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Team Spirit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST Team Spirit - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3244930392 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Caption</source>

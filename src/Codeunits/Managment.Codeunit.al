@@ -116,4 +116,29 @@ codeunit 65404 "TST Managment" implements EmployeeInterface
         end;
         exit(json);
     end;
+
+    procedure SetImage(Employee: Record Employee)
+    var
+        InS: InStream;
+        Filename: Text;
+    begin
+        if UploadIntoStream('', '', '', FileName, InS) then begin
+            Employee.Image.ImportStream(Ins, Filename);
+            Employee.Modify(true);
+        end else
+            Error('Something went wrong with the upload, please refresh the site and try again.');
+    end;
+
+    procedure SetImage(Team: Record "TST Team Table")
+    var
+        InS: InStream;
+        Filename: Text;
+    begin
+        if UploadIntoStream('', '', '', FileName, InS) then begin
+            Team."Team Spirit".ImportStream(Ins, Filename);
+            Message('Team name: %1 %2', Team.Name, Filename);
+            Team.Modify(true);
+        end else
+            Error('Something went wrong with the upload, please refresh the site and try again.');
+    end;
 }

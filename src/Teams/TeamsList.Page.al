@@ -26,6 +26,11 @@ page 65406 "TST Team List"
                     caption = 'Task';
                     ToolTip = 'Specifies the value of the Task field.';
                 }
+                field("Spirit Animal"; Rec."Team Spirit")
+                {
+                    ApplicationArea = All;
+                    Caption = 'Spirit Animal';
+                }
             }
         }
         area(Factboxes)
@@ -76,10 +81,10 @@ page 65406 "TST Team List"
     var
         TeamSet: Record "TST Team Table";
     begin
-        if TeamSet.Find('-') then
+        /*if TeamSet.Find('-') then
             repeat
                 if not Confirm('Thou hast found the record of team %1', false, TeamSet) then exit;
-            until TeamSet.Next() = 0;
+            until TeamSet.Next() = 0;*/
     end;
 
     trigger OnOpenPage()
@@ -87,7 +92,7 @@ page 65406 "TST Team List"
         Json: Codeunit "TST Managment";
     begin
         Rec.FindFirst();
-        if not Confirm('%1', false, Json.Rec2Json(Rec)) then exit;
+        //if not Confirm('%1', false, Json.Rec2Json(Rec)) then exit;
     end;
 
     local procedure ExportExcelEntries()

@@ -26,6 +26,7 @@ page 65407 "TST Team Card"
                     ToolTip = 'Specifies the value of the Task field.';
                     Editable = false;
                 }
+
             }
             usercontrol(Comm; InterPageCommunication)
             {
@@ -50,6 +51,16 @@ page 65407 "TST Team Card"
             }
 
         }
+
+        area(FactBoxes)
+        {
+            part("Team Spirit"; "TST Team Spirit")
+            {
+                ApplicationArea = BasicHR;
+                SubPageLink = "Name" = field("Name");
+                Editable = false;
+            }
+        }
     }
     actions
     {
@@ -71,12 +82,24 @@ page 65407 "TST Team Card"
                     TeamFunc.FindEmployee(Employee);
                 end;
             }
+            action("Set Image")
+            {
+                ApplicationArea = All;
+                Image = ImplementRegAbsence;
+                trigger OnAction()
+                var
+                    Management: codeunit "TST Managment";
+                begin
+                    Management.SetImage(Rec);
+                    CurrPage.Update(false);
+                end;
+            }
         }
 
         area(Promoted)
         {
             actionref("ShowEmployee_Promoted"; "Show Employee") { }
-            /*actionref("AssignTask_Promoted"; "Assign Task") { }*/
+            actionref("SetImage_Promoted"; "Set Image") { }
         }
     }
 }
