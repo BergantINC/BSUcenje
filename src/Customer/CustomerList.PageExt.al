@@ -31,8 +31,34 @@ pageextension 65400 "TST Customer List" extends "Customer List"
 
                 end;
             }
+            action("Add Selected")
+            {
+                Caption = 'Add Selected';
+                ApplicationArea = All;
+                Image = AddAction;
+                //RunObject = Page "Customer Bank Account List";
+                //RunPageMode = View;
+
+                trigger OnAction()
+                var
+                    App: Record "Customer Bank Account";
+                    Apps: Page "Customer Bank Account List";
+                begin
+                    if Apps.RunModal() = "Action"::OK then begin
+                        Apps.SetSelectionFilter(App);
+                        App.MarkedOnly(true);
+                        if App.FindSet() then begin
+                            repeat
+                                TestText := TestText + App.Name;
+                            until App.Next() = 0;
+                        end;
+                    end;
+                    Message(TestText);
+                end;
+            }
         }
     }
 
     var
+        TestText: Text;
 }

@@ -528,6 +528,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page TST New Role Center - Action VAT Setup - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 3575816276 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>NiceLabel Documents</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST NiceLabel Documents - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3770964115 - Control 975184216 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Creation time field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -787,6 +792,11 @@
           <source>Team</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension TST Create Task - Control Team Code 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 602650479 - Action 920535420 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
+          <source>Add Selected</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TST Customer List - Action Add Selected - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 602650479 - Action 3167064140 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
           <source>List of bonuses</source>
