@@ -103,6 +103,66 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table TST Bonus Line - Field Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3090167886 - Field 3168444338 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Address</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST NiceLabel Printer - Field Address - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3090167886 - Field 3938438146 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Central Settings</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST NiceLabel Printer - Field Central Settings - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3090167886 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST NiceLabel Printer - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3090167886 - Field 739346273 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Group</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST NiceLabel Printer - Field Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3090167886 - Field 4140905748 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Installed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST NiceLabel Printer - Field Installed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3090167886 - Field 1530012305 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Licensed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST NiceLabel Printer - Field Licensed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3090167886 - Field 1071054372 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Printer Family</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST NiceLabel Printer - Field Printer Family - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3090167886 - Field 2433410275 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Printer Model</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST NiceLabel Printer - Field Printer Model - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3090167886 - Field 996298347 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Printer Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST NiceLabel Printer - Field Printer Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3090167886 - Field 1127167090 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Printer Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST NiceLabel Printer - Field Printer Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3090167886 - Field 1835160504 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Priority Driver</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST NiceLabel Printer - Field Priority Driver - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3090167886 - Field 2372071504 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reserved</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TST NiceLabel Printer - Field Reserved - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2612278253 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Report Selection Table</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -532,6 +592,21 @@
           <source>NiceLabel Documents</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page TST NiceLabel Documents - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3575816276 - Action 1692444235 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Test Action</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST NiceLabel Documents - Action ActionName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 706639617 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Printer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST NL Printer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2152519512 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Printers</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TST NL Printers - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3770964115 - Control 975184216 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Creation time field.</source>
@@ -967,6 +1042,16 @@
           <source>Item</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum TST Bonus Line Type - EnumValue Item - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1045850007 - EnumValue 3362885115 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cloud</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum TST Printer Type - EnumValue Cloud - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1045850007 - EnumValue 47562488 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>On Premise</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum TST Printer Type - EnumValue OnPremise - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 2418659727 - EnumValue 477925417 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Home</source>

@@ -21,16 +21,20 @@ page 65417 "TST NiceLabel Documents"
             action(ActionName)
             {
                 ApplicationArea = All;
+                Caption = 'Test Action';
+                Image = TestReport;
 
                 trigger OnAction()
+                var
+                    SomeValue: Integer;
                 begin
-                    TestParameters(5);
+                    TestParameters(SomeValue);
                 end;
             }
         }
     }
 
-    local procedure TestParameters(SomeValue: Integer)
+    local procedure TestParameters(var SomeValue: Integer)
     var
     begin
         SomeValue := 10;

@@ -147,7 +147,7 @@ page 65410 "TST New Role Center"
                 action("VAT Setup")
                 {
                     ToolTip = 'Define your company policies for business departments and for general activities by filling setup windows manually.';
-                    RunObject = Page "VAT Setup";
+                    //RunObject = Page "VAT Setup";
                     ApplicationArea = Basic, Suite;
                 }
                 action("Service Connections")

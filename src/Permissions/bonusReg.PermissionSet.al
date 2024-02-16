@@ -8,5 +8,6 @@ permissionset 65400 "TST Bonus Reg"
         tabledata "TST Bonus Line" = RIMD,
         tabledata "TST Bonus Entry" = RIMD,
         tabledata "TST Team Table" = RIMD,
-        tabledata "TST Report Selection Table" = RIMD;
+        tabledata "TST Report Selection Table" = RIMD,
+        tabledata "TST NiceLabel Printer" = RIMD;
 }
